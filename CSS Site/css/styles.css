@@ -8,6 +8,7 @@ hr {
   border-style: dotted none none;
   border-width: 5px;
   border-color: #EAF6F6;
+  margin: 100px auto;
   width: 10%;
 }
 
@@ -54,6 +55,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -62,6 +64,7 @@ h3 {
 }
 
 .middle-container {
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -72,11 +75,17 @@ h3 {
 
 .footer-link {
   padding: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
 }
 
 .introduction-paragraph {
-  width: 50%;
-  margin: 100px auto;
+  width: 30%;
+  margin: auto;
   text-align: left;
   line-height: 2;
 }
@@ -100,7 +109,8 @@ h3 {
 }
 
 .contact-me-paragraph {
-  margin: 50px;
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 /* using https://css3buttongenerator.com/ */
@@ -114,7 +124,7 @@ h3 {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -133,4 +143,18 @@ h3 {
 
 .copyright {
   color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.flaticon-link:hover {
+  color: #EAF6F6;
+}
+
+.flaticon-link {
+  font-size: 0.75rem;
+  padding: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
