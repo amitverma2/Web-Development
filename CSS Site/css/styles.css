@@ -4,6 +4,13 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+a {
+  color: #11999E;
+}
+
+.pro {
+  text-decoration: underline;
+}
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -23,15 +30,22 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+  margin-top: 50px;
 }
 
 h2 {
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,4 +53,23 @@ h3 {
 }
 
 .bottom-container {
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.cpp-coding-img {
+  /*width: 25%; this makes image pixelated */
+  float: left;
+  margin-right: 30px;
+}
+
+.machine-learning-img {
+  /*width: 25%; this makes image pixelated */
+  float: right;
+  margin-left: 30px;
 }
