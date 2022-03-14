@@ -56,7 +56,6 @@ h1 {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-
 }
 
 .features-col {
@@ -76,7 +75,7 @@ h3 {
 
 .features-icons {
   color: #ef8172;
-margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .features-icons:hover {
@@ -132,6 +131,7 @@ h2 {
   #title {
     text-align: center;
   }
+
   .title-image {
     transform: rotate(0);
     position: static;
@@ -143,11 +143,13 @@ h2 {
   padding: 7% 15%;
   background-color: #ff4c68;
   text-align: center;
+  color: #fff;
 }
 
-h3 {
+.cta-h3 {
   font-family: 'Montserrat-Black', sans-serif;
-  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 /* footer */
