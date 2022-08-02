@@ -13,6 +13,10 @@ app.get("/about", function(req, res) {
   res.send("This is Amit Verma. I am learning backend programming.");
 });
 
+app.get("/hobbies", function(req, res) {
+  res.send("My hobbies are running and coding.");
+});
+
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
